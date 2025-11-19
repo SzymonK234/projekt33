@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Układ semantyczny</title>
+
+    <style>
+        body{
+            text-align: center;
+        }
+        header, footer {
+            background: #4a6cf7;
+            height: 200px;
+            border: 2px solid black
+        }
+
+        main {
+            display: flex;
+            height: 200px;
+            border: 2px solid black
+        }
+
+        section {
+            background: silver;
+        }
+        #L, #R{
+            width: 25%;
+            border: 2px solid black   
+        }
+        #C{
+            width: 50%;
+            border: 2px solid black
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Nagłówek strony</h1>
+    </header>
+
+    <main>
+        <section id="L">
+            <h2>Lewa sekcja</h2>   
+        </section>
+
+        <section id="C">
+            <h2>Środkowa sekcja</h2>
+        </section>
+
+        <section id="R">
+            <h2>Prawa sekcja</h2>
+        </section>
+    </main>
+
+    <footer>
+        <h2>stopka</h2>
+    </footer>
+
+</body>
+</html>
